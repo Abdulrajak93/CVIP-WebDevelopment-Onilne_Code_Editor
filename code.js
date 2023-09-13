@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const codeEditor = document.getElementById('code-editor');
-    const runButton = document.getElementById('run-btn');
+    const runButton = document.getElementById('run-button');
     const outputDiv = document.getElementById('output');
 
     runButton.addEventListener('click', function () {
